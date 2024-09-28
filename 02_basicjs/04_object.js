@@ -42,3 +42,20 @@ console.log(Object.values(tinderUser));  // [ '123abc', 'kanishk raj', false ]
 console.log(Object.entries(tinderUser));  // [ [ 'id', '123abc' ], [ 'name', 'kanishk raj' ], [ 'isLoggedIn', false ] ]
 
 console.log(tinderUser.hasOwnProperty('name')); // ture
+
+
+
+
+const course = {
+    courceName: "js in Hindi",
+    price: "999",
+    courseInstructor: "Kansihk"
+}
+
+// course.courseInstructor
+
+const { courseInstructor } = course
+console.log(courseInstructor); // kanishk
+
+const { courseInstructor: instructor } = course
+console.log(instructor); // kanishk
