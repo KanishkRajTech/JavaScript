@@ -15,44 +15,46 @@ if (true) {
 
 
 function one(){
-    const username = "hitesh"
+    const username = "kanishk Raj"
 
     function two(){
         const website = "youtube"
-        console.log(username);
-    }
-    // console.log(website);
+        console.log(username);  // kanishk Raj
+    } 
+    // console.log(website); // error
 
      two()
 
 }
 
-// one()
+one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "kanishk"
+    if (username === "kanishk") {
         const website = " youtube"
-        // console.log(username + website);
+        console.log(username + website); // kanishk youtube
     }
-    // console.log(website);
+    //  console.log(website); // error
 }
 
-// console.log(username);
+//  console.log(username); // error
 
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+// ++++++++++++++++++ interesting topic ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) //6
 
 function addone(num){
     return num + 1
 }
 
+addone(5)
 
-
-addTwo(5)
+// addTwo(5) // error
 const addTwo = function(num){
     return num + 2
 }
+
+console.log(addTwo(5)) //  7
